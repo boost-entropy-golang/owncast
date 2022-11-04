@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/amalfra/etag v1.0.0
-	github.com/aws/aws-sdk-go v1.44.128
+	github.com/aws/aws-sdk-go v1.44.130
 	github.com/go-fed/activity v1.0.1-0.20210803212804-d866ba75dd0f
 	github.com/go-fed/httpsig v1.1.0
 	github.com/go-ole/go-ole v1.2.6 // indirect
@@ -39,7 +39,7 @@ require (
 	golang.org/x/sys v0.1.0 // indirect
 )
 
-require github.com/prometheus/client_golang v1.13.0
+require github.com/prometheus/client_golang v1.13.1
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
