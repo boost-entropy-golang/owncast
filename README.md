@@ -59,6 +59,7 @@ Owncast is an open source, self-hosted, decentralized, single user live video st
     </a>
 </div>
 
+[![contribute.design](https://contribute.design/api/shield/owncast/owncast)](https://contribute.design/owncast/owncast)
 
 ---
 
