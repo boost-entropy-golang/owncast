@@ -3,13 +3,21 @@
 .outerContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  @include screen(tablet) {
+    height: 430px;
+  }
+
+  @include screen(mobile) {
+    height: 280px;
+  }
 }
 
 .innerContainer {
   width: clamp(00px, 100%, 600px);
   display: flex;
   flex-direction: column;
-  color: var(--theme-color-background-main);
   margin: 3rem auto;
   padding: 2.4em;
 
@@ -22,7 +30,7 @@
 
 .bodyText {
   line-height: 2rem;
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .separator {
@@ -32,10 +40,10 @@
 
 .lastLiveDate {
   margin-top: 2rem;
-  font-size: .8rem;
-  color: var(--theme-color-palette-8);
+  font-size: 0.8rem;
+  opacity: 0.7;
   font-family: var(--theme-text-body-font-family);
-	font-weight: 300;
+  font-weight: 300;
 
   .clockIcon {
     margin-right: 6px;
@@ -43,9 +51,9 @@
 }
 
 .header {
-	font-family: var(--theme-text-display-font-family);
-	font-weight: 600;
-	font-size: 1.4rem;
+  font-family: var(--theme-text-display-font-family);
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .footer {
