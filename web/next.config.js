@@ -2,13 +2,25 @@ const withLess = require('next-with-less');
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
+const DeadCodePlugin = require('webpack-deadcode-plugin');
+
+const runtimeCaching = require('next-pwa/cache');
+
 const withPWA = require('next-pwa')({
   dest: 'public',
+  runtimeCaching: [
+    ...runtimeCaching,
+    {
+      urlPattern: /\.(?:ts|m3u8)$/i,
+      handler: 'NetworkOnly',
+    },
+  ],
   register: true,
   skipWaiting: true,
   publicExcludes: ['!img/platformlogos/**/*', '!styles/admin/**/*'],
   buildExcludes: [/chunks\/pages\/admin.*/, '!**/admin/**/*'],
   sourcemap: process.env.NODE_ENV === 'development',
+  disable: process.env.NODE_ENV === 'development',
 });
 
 module.exports = withPWA(
@@ -27,6 +39,19 @@ module.exports = withPWA(
           issuer: /\.[jt]sx?$/,
           use: ['@svgr/webpack'],
         });
+
+        config.plugins.push(
+          new DeadCodePlugin({
+            detectUnusedFiles: false,
+            patterns: ['**/*.(js|jsx|tsx|css)'],
+            exclude: [
+              '**/*.(stories|spec).(js|jsx|tsx)',
+              'node_modules/**/*',
+              'storybook-static/**/*',
+              'out/**/*',
+            ],
+          }),
+        );
 
         return config;
       },
