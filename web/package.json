@@ -56,10 +56,10 @@
 		"workbox-precaching": "^6.5.4",
 		"workbox-window": "^6.5.4",
 		"xstate": "4.37.2",
-		"yaml": "2.3.0"
+		"yaml": "2.3.1"
 	},
 	"devDependencies": {
-		"@babel/core": "7.21.8",
+		"@babel/core": "7.22.0",
 		"@mdx-js/react": "2.3.0",
 		"@storybook/addon-a11y": "6.5.16",
 		"@storybook/addon-actions": "6.5.16",
