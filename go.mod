@@ -19,7 +19,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 	github.com/yuin/goldmark v1.5.4
-	golang.org/x/mod v0.10.0
+	golang.org/x/mod v0.11.0
 	golang.org/x/time v0.3.0
 )
 
@@ -31,12 +31,12 @@ require (
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
 	github.com/tklauser/numcpus v0.6.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/net v0.10.0
+	golang.org/x/crypto v0.10.0 // indirect
+	golang.org/x/net v0.11.0
 	golang.org/x/sys v0.9.0 // indirect
 )
 
-require github.com/prometheus/client_golang v1.15.1
+require github.com/prometheus/client_golang v1.16.0
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -48,8 +48,8 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.42.0 // indirect
-	github.com/prometheus/procfs v0.9.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	github.com/prometheus/procfs v0.10.1 // indirect
+	golang.org/x/text v0.10.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 )
 
