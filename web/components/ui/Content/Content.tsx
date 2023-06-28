@@ -241,11 +241,11 @@ export const Content: FC = () => {
           <Col span={24} style={{ paddingRight: dynamicPadding }}>
             <ActionButtons
               supportFediverseFeatures={supportFediverseFeatures}
-              supportsBrowserNotifications
+              supportsBrowserNotifications={supportsBrowserNotifications}
               showNotifyReminder={showNotifyReminder}
               setShowNotifyModal={setShowNotifyModal}
               disableNotifyReminderPopup={disableNotifyReminderPopup}
-              externalActions={externalActions}
+              externalActions={externalActions || []}
               setExternalActionToDisplay={setExternalActionToDisplay}
               setShowFollowModal={setShowFollowModal}
               externalActionSelected={externalActionSelected}
