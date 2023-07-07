@@ -44,7 +44,7 @@
 		"react-contenteditable": "^3.3.7",
 		"react-dom": "18.2.0",
 		"react-error-boundary": "^4.0.0",
-		"react-hotkeys-hook": "4.4.0",
+		"react-hotkeys-hook": "4.4.1",
 		"react-linkify": "1.0.0-alpha",
 		"react-markdown": "8.0.7",
 		"react-virtuoso": "4.3.11",
@@ -60,7 +60,7 @@
 		"yaml": "2.3.1"
 	},
 	"devDependencies": {
-		"@babel/core": "7.22.5",
+		"@babel/core": "7.22.6",
 		"@mdx-js/react": "2.3.0",
 		"@storybook/addon-a11y": "6.5.16",
 		"@storybook/addon-actions": "6.5.16",
