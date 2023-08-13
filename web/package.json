@@ -14,7 +14,7 @@
 		"format": "prettier --write  **/*.{js,ts,jsx,tsx,css,md}"
 	},
 	"dependencies": {
-		"@ant-design/icons": "4.8.0",
+		"@ant-design/icons": "4.8.1",
 		"@codemirror/lang-css": "6.2.1",
 		"@codemirror/lang-html": "^6.4.2",
 		"@codemirror/lang-javascript": "^6.1.2",
@@ -83,7 +83,7 @@
 		"@types/markdown-it": "12.2.3",
 		"@types/node": "18.17.4",
 		"@types/prop-types": "15.7.5",
-		"@types/react": "18.2.19",
+		"@types/react": "18.2.20",
 		"@types/react-linkify": "1.0.1",
 		"@types/sanitize-html": "^2.9.0",
 		"@types/ua-parser-js": "0.7.36",
@@ -115,7 +115,7 @@
 		"npm": "^9.4.0",
 		"postcss": "^8.4.24",
 		"prettier": "3.0.1",
-		"sass": "1.64.2",
+		"sass": "1.65.1",
 		"sass-loader": "13.3.2",
 		"sb": "6.5.16",
 		"storybook-addon-designs": "6.3.1",
