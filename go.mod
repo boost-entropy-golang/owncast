@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/CAFxX/httpcompression v0.0.9
 	github.com/SherClockHolmes/webpush-go v1.4.0
-	github.com/TwiN/go-away v1.6.14
+	github.com/TwiN/go-away v1.6.15
 	github.com/andybalholm/cascadia v1.3.3
 	github.com/aws/aws-sdk-go v1.55.6
 	github.com/go-chi/chi/v5 v5.2.1
@@ -35,7 +35,7 @@ require (
 	golang.org/x/crypto v0.36.0
 	golang.org/x/mod v0.24.0
 	golang.org/x/net v0.36.0
-	golang.org/x/time v0.10.0
+	golang.org/x/time v0.11.0
 	gopkg.in/evanphx/json-patch.v5 v5.9.11
 	mvdan.cc/xurls/v2 v2.6.0
 )
